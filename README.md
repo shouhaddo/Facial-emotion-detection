@@ -12,11 +12,12 @@ The data consists of 48x48 pixel grayscale images of faces. The faces have been 
 
 The task is to categorize each face based on the emotion shown in the facial expression into one of seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral). The training set consists of 28,709 examples and the public test set consists of 3,589 examples.
 
-<b>Face detection</b>
+<b>Face detection</b><br>
 Images are already cropped and just facial area are focused on in the train set. This is not a must but we should detect faces of the custom testing images and feed just facial areas to the neural networks model. This will increase the accuracy dramatically.
 
 There are several face detection solutions. OpenCV offers haar cascade and single shot multibox detector (SSD). Dlib offers Histogram of Oriented Gradients (HOG) and Max-Margin Object Detection (MMOD). Finally Multi-task Cascaded Convolutional Networks (MTCNN) is a common solution for face detection. Herein, haar cascade and HoG are legacy methods whereas SSD, MMOD and MTCNN are deep learning based modern solutions
 
-<b>#Conclusion</b>
-So, we’ve constructed a deep CNN model to recognize facial expressions of human beings. Model produces 67.6% accuracy on test set. That can be acceptable because winner of kaggle challenge has got 71% accuracy.
+<b>#Conclusion</b><br>
+<br>
+So, we’ve constructed a deep CNN model to recognize facial expressions of human beings. Model produces <b>67.6% accuracy on test set</b>. That can be acceptable because winner of kaggle challenge has got <b>71% accuracy</b>.
 
