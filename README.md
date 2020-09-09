@@ -1,5 +1,5 @@
 # Facial-emotion-detection
-here we detect facial emotion by a live web cam using cnn model .
+we detect facial emotion by a live webcam using cnn model and opencv .
 
 <b>What is facial emotion recognition?</b>
 Facial emotion recognition is the process of detecting human emotions from facial expressions. The human brain recognizes emotions automatically, and software has now been developed that can recognize emotions as well. This technology is becoming more accurate all the time, and will eventually be able to read emotions as well as our brains do. 
