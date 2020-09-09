@@ -1,6 +1,6 @@
 # Facial-emotion-detection
-(dataset link = https://www.kaggle.com/msambare/fer2013 )
-we detect facial emotion by a live webcam using cnn model and opencv .
+we will detect facial emotion by a live webcam using cnn model and opencv .
+(dataset link = https://www.kaggle.com/msambare/fer2013 )<br>
 
 <b>What is facial emotion recognition?</b>
 Facial emotion recognition is the process of detecting human emotions from facial expressions. The human brain recognizes emotions automatically, and software has now been developed that can recognize emotions as well. This technology is becoming more accurate all the time, and will eventually be able to read emotions as well as our brains do. 
